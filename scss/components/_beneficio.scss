@@ -1,0 +1,37 @@
+/* Beneficios */
+.beneficio {
+    margin-top: -5px;
+    padding: 50px 0;
+     background: $multicolor;
+       text-align: center;
+     }
+     .beneficio h2{
+       font-size: 50px;
+       color: color-blanco;
+       margin-bottom: 50px;
+     }
+     .beneficio-in p {
+       font-size: 50px;
+       font-size: 20px;
+     }
+     .beneficio-1 {
+       display: flex;
+       align-items: center;
+       margin-bottom: 70px;
+     }
+     .beneficio-info {
+       display: flex;
+       align-items: center;
+       text-align: left;
+       margin-bottom: 5px;
+     }
+     .beneficio-txt {
+       width: 50%;
+     }
+     .beneficio-in {
+       margin: 20px;
+     }
+   .beneficio-img { 
+        width: 800px; 
+   
+   }

@@ -1,0 +1,110 @@
+ /* Responsive */
+ @media (max-width:991px) {
+
+
+    /* quien somos */
+
+    .about {
+        padding: 30px;
+        flex-direction: column;
+   }
+   .about-img {
+       justify-content: center;
+       order: 2;
+   }
+   .about-img img {
+       width: 150px;
+       margin: 0 15px;
+   
+   }
+   .about-txt {
+       text-align: center;
+       margin: 35px;
+   }
+
+   h2 {
+    font-size: 40px;
+    line-height: 1;
+    color: $color-rosa;
+    margin: 25px;
+}
+.about-txt p {
+    color: $color-negro;
+}
+
+.btn-1 {
+    display: inline-block;
+    padding: 13px 35px;
+    
+} 
+
+  /* Especialista */
+  .especialista {
+    padding: 30px;
+    background-color: color-blanco;
+   }
+   .especialista h2 {
+    margin: 0;
+
+   }
+   .especialista-content {
+    flex-direction: column;
+    margin-bottom: 15px;
+   }
+   .especialista-1 {
+    padding: 0 25px;
+    margin-bottom: 25px;
+   }
+
+   /* Tipos de Tratamientos */
+   .tratamientos {
+    padding: 30px;
+   }
+   .tratamientos-content {
+    padding: 0 30px;
+    grid-template-columns: repeat(1, 1fr);
+   }
+   
+   /* Beneficios */
+   .beneficio {
+    padding: 30px;
+   }
+   .beneficio-1 {
+    flex-direction: column;
+   }
+   .beneficio-txt {
+    width: 100%;
+   }
+   .beneficio-in {
+    margin-left: 40px;
+   }
+   .beneficio-img{
+    width: 100%;
+    order: 2;
+   }
+
+   /* contacto */
+  .contact-container{
+    margin: 0 auto;
+    width: 90%;
+  } 
+  .contact-container {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  .map iframe{
+    height: 400px;
+  }
+   
+
+   
+  
+}
+
+
+/* tratamientos */
+@media (mx-width:768px) {
+.container-tratamiento{
+    padding: 20px;
+}
+}

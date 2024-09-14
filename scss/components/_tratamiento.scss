@@ -1,0 +1,63 @@
+/* Tratamientos */
+.container-tratamiento {
+    background: $multicolor;
+    padding: 15px 9%;
+padding-bottom: 100px;
+
+
+}
+
+.container-tratamiento .titulo {
+    text-align: center;
+    padding-bottom: 15px;
+    color: color-blanco;
+    text-shadow: 0 5px 10px $color-negroc;
+    font-size: 50px ;
+
+}
+.box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    gap: 15px;
+}
+.container-tratamiento .box-container .box{
+    box-shadow: 0 5px 10px $color-negroc;
+    border-radius: 5px;
+    background: color-blanco;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+
+
+.container-tratamiento .box-container .box img{
+    height: 300px;
+
+}
+.container-tratamiento .box-container .box h3{
+    color:$color-rosa;
+    font-size: 22px;
+    padding: 10px 0;
+    
+}
+.container-tratamiento .box-container .box p{
+    color:$color-negro;
+    font-size: 15px;
+    line-height: 1.8;
+    
+}
+.container-tratamiento .box-container .btn{
+    display: inline-block;
+    padding: 13px 35px;
+    color: $color-azul;
+    
+
+}
+.container-tratamiento .box-container .btn:hover{
+    letter-spacing: 1px;
+}
+.container-tratamiento .box-container .box:hover{
+    box-shadow: 0 10px 15px $color-negroc;
+    transform: scale(1.04);
+}
+/* Fin de la seccion tratamientos */
